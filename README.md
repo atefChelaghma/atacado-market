@@ -1,6 +1,6 @@
 # Project
 
-Modern Next.js application built with TypeScript and Sass.
+CRITÉRIO is a modern editorial website and a showcase of an AI agent’s end-to-end software delivery workflow: taking work from the backlog through design-led implementation and automated validation to deployment-ready delivery. It is built with Next.js, TypeScript, and Sass.
 
 ## Stack
 
@@ -12,6 +12,9 @@ Modern Next.js application built with TypeScript and Sass.
 - Prettier
 - Husky
 - lint-staged
+- Jest
+- React Testing Library
+- Cypress
 - GSAP
 - Lenis
 
@@ -59,4 +62,18 @@ npm run lint:fix
 npm run format
 npm run format:check
 npm run build
+npm run typecheck
+npm run typecheck:e2e
+npm test
+npm run test:watch
+npm run test:coverage
+npm run test:e2e
+npm run cypress:open
+npm run cypress:run
 ```
+
+## Testing
+
+Jest and React Testing Library cover component and page behavior. Run `npm test` for the suite or `npm run test:coverage` for a coverage report.
+
+Cypress covers end-to-end journeys. `npm run test:e2e` starts the Next.js development server and runs the browser tests. To use the interactive Cypress runner, start the app with `npm run dev` in one terminal, then run `npm run cypress:open` in another.
