@@ -1,0 +1,33 @@
+# Task: Implement Project-Wide Automated Testing
+
+Read and follow `AGENTS.md` and `docs/skills/testing-quality/SKILL.md` before starting.
+
+## Objectives
+
+1. Inspect the existing project architecture, dependencies, scripts, and testing configuration.
+2. Install and configure Jest and React Testing Library if they are not already installed.
+3. Install and configure Cypress if it is not already installed.
+4. Audit all existing components, pages, hooks, utilities, services, and features to identify missing or insufficient tests.
+5. Add or improve tests for existing code, following the project's architecture and folder conventions. Keep tests alongside their corresponding code where appropriate.
+6. Create Cypress E2E tests for critical user journeys, using deterministic test data and the existing application startup workflow.
+7. Add or update the necessary package scripts without overwriting existing functionality.
+8. Run the relevant unit tests, component tests, E2E tests, TypeScript validation, linting, and production build.
+
+## Requirements
+
+- Follow the existing project architecture and naming conventions.
+- Prioritize meaningful behavioral coverage over superficial tests or arbitrary coverage percentages.
+- Do not duplicate testing frameworks or unnecessarily restructure the codebase.
+- Fix root causes of failures rather than weakening assertions or skipping tests.
+- Distinguish pre-existing failures from regressions where evidence allows.
+- Do not modify unrelated application behavior.
+
+## Deliverables
+
+- Working Jest and React Testing Library configuration.
+- Working Cypress configuration and critical E2E tests.
+- Appropriate tests for existing components, pages, and application logic.
+- Updated package scripts and configuration where necessary.
+- A concise report listing tests added, exact commands executed, results, and unresolved issues.
+
+Start with the project audit, implement the missing testing infrastructure, then progressively add tests across the codebase. Do not claim any test or validation passed unless you actually ran it.

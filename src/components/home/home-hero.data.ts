@@ -5,7 +5,6 @@ export const HOME_HERO_CONTENT = {
   headline: 'Compre melhor. Escolha com critério e confiança.',
   introduction:
     'Testamos, comparamos e selecionamos os melhores produtos disponíveis no Brasil para que você invista seu dinheiro sem arrependimentos ou falsas promessas de marketing.',
-  // Category-specific routes do not exist yet, so chips lead to the live guide overview.
   categories: [
     { label: 'Café & Cozinha', icon: 'coffee', href: '/#guias-de-compra' },
     { label: 'Tecnologia', icon: 'technology', href: '/#guias-de-compra' },
