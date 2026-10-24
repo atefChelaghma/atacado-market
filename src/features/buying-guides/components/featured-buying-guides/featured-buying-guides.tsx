@@ -4,7 +4,11 @@ import styles from './featured-buying-guides.module.scss';
 
 export function FeaturedBuyingGuides() {
   return (
-    <section className={styles.section} aria-labelledby="featured-guides-title">
+    <section
+      className={styles.section}
+      id="guias-de-compra"
+      aria-labelledby="featured-guides-title"
+    >
       <div className={styles.container}>
         <header className={styles.header}>
           <p className={styles.eyebrow}>Análises de longo prazo</p>

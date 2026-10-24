@@ -3,7 +3,6 @@ import type { FooterLinkGroup, FooterSocialLink } from './site-footer.types';
 export const FOOTER_DESCRIPTION =
   'Publicação editorial brasileira dedicada a testes rigorosos, avaliações independentes e vereditos transparentes sobre bens de consumo. Ajudamos você a fazer escolhas conscientes e duráveis.';
 
-// Entries without an href stay informational until their destination pages are implemented.
 export const FOOTER_LINK_GROUPS: readonly FooterLinkGroup[] = [
   {
     label: 'Categorias',
@@ -35,7 +34,6 @@ export const FOOTER_LINK_GROUPS: readonly FooterLinkGroup[] = [
   },
 ];
 
-// Only configured HTTPS destinations are rendered as external links.
 function configuredHttpsUrl(value: string | undefined): string | undefined {
   if (!value) return undefined;
 

@@ -1,7 +1,6 @@
 import { OSTER_PRIMA_LATTE_SAMPLE } from '../product-verdict-card/product-verdict-card.data';
 import type { ProductVerdictCardData } from '../product-verdict-card/product-verdict-card.types';
 
-// Design-story fixture only; prices, stock, specifications, and warranties are unverified.
 export const EDITORS_CHOICES: readonly ProductVerdictCardData[] = [
   OSTER_PRIMA_LATTE_SAMPLE,
   {
