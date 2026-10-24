@@ -86,6 +86,11 @@
   }
 }
 
+.editorialGuideCard {
+  grid-column: 1 / -1;
+  margin-top: 8px;
+}
+
 .formats {
   border-top: 1px solid var(--color-line);
   display: grid;

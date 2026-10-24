@@ -68,4 +68,4 @@ export const FOOTER_SOCIAL_LINKS: readonly FooterSocialLink[] = [
 export const FOOTER_LEGAL_NOTICE =
   '© 2024 CRITÉRIO Editorial Ltda. Todos os direitos reservados. Avaliações independentes para o consumidor brasileiro. Transparência editorial: Ao comprar pelos links indicados, podemos receber comissões sem qualquer custo adicional para você.';
 
-export const FOOTER_COMPANY_INFO = ['CNPJ 48.912.804/0001-20', 'São Paulo, Brasil'] as const;
+export const FOOTER_COMPANY_INFO = ['São Paulo, Brasil'] as const;
